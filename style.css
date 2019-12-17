@@ -220,7 +220,7 @@ header {
   right: 13.56%;
   top: 13.56%;
   bottom: 13.56%;
-  background: #00BFA5;
+  color: #00BFA5;
 }
 
 .account {
@@ -310,6 +310,132 @@ header {
   font-weight: normal;
   font-size: 10px;
   line-height: 12px;
+}
+
+.nav-btn {
+  display: none;
+}
+
+#nav-check {
+  display: none;
+}
+
+@media (max-width: 1196px) {
+  .nav-btn {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+  }
+  .nav-btn label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav-btn label span {
+    display: block;
+    width: 22px;
+    height: 5px;
+    border-top: 2px solid #00BFA5;
+  }
+
+  #nav-check:not(:checked) ~ .navbar {
+    height: 0px;
+  }
+
+  #nav-check:checked ~ .navbar {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+
+  .chevron_left_24px {
+    left: 5%;
+  }
+
+  .chevron_right_24px {
+    left: 92%;
+  }
+
+  .group38 {
+    left: 14%;
+    right: 10%;
+  }
+
+  .group39 {
+    display: none;
+  }
+
+  .search {
+    left: 3%;
+    right: 3%;
+    top: 65%;
+    bottom: 8%;
+  }
+  .search .icondetail {
+    color: #00BFA5;
+  }
+
+  .brand {
+    width: 184px;
+    height: 86px;
+    left: 70px;
+    top: 10px;
+  }
+
+  .account {
+    display: none;
+  }
+
+  .favorite {
+    left: 74%;
+    top: 28%;
+  }
+  .favorite .quantity {
+    border-radius: 0.8em;
+    line-height: 1.2em;
+    width: 1.2em;
+    left: 20%;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .minicart {
+    left: 85%;
+    top: 28%;
+  }
+  .minicart .quantity {
+    border-radius: 0.8em;
+    line-height: 1.2em;
+    width: 1.2em;
+    left: 35%;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .navbar {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    height: 50px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 120px;
+    left: 0px;
+  }
+  .navbar ul {
+    position: absolute;
+    display: block;
+    width: 210px;
+    color: #ffffff;
+  }
+  .navbar ul li {
+    display: block;
+    width: 100%;
+    padding: 15px 40px;
+    color: #00BFA5;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
