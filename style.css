@@ -1,0 +1,315 @@
+header {
+  position: absolute;
+  width: 100vw;
+  height: 158px;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.14);
+}
+
+.hint {
+  position: absolute;
+  width: 100vw;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+}
+
+.chevron_left_24px {
+  position: absolute;
+  left: 19.1%;
+  right: 79.79%;
+  top: 30%;
+  bottom: 30%;
+}
+.chevron_left_24px .icon {
+  color: #C7C7C7;
+}
+
+.chevron_right_24px {
+  position: absolute;
+  left: 79.72%;
+  right: 19.17%;
+  top: 30%;
+  bottom: 30%;
+}
+.chevron_right_24px .icon {
+  color: #C7C7C7;
+}
+
+.group38 {
+  position: absolute;
+  left: 26.99%;
+  right: 54.1%;
+  top: 20%;
+  bottom: 20%;
+  display: inline-flex;
+}
+.group38 .icon {
+  position: relative;
+  top: 20%;
+  bottom: 20%;
+}
+.group38 .icondetail {
+  color: #00BFA5;
+}
+.group38 .text {
+  top: 20%;
+  bottom: 20%;
+  padding: 5px 0px 5px 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #757575;
+}
+
+.group39 {
+  position: absolute;
+  left: 53.68%;
+  right: 27.06%;
+  top: 20%;
+  bottom: 20%;
+  display: inline-flex;
+}
+.group39 .icon {
+  position: relative;
+  top: 20%;
+  bottom: 20%;
+}
+.group39 .icondetail {
+  color: #00BFA5;
+}
+.group39 .text {
+  top: 32.5%;
+  bottom: 30%;
+  padding: 5px 0px 5px 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #757575;
+}
+
+.divider {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 97.5%;
+  bottom: 0%;
+}
+.divider .retangulo {
+  position: absolute;
+  height: 1px;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  background: #F0F0F0;
+}
+
+.solidfill {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+.solidfill .retangulo {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #FFFFFF;
+}
+
+.background {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 25.32%;
+  bottom: 0%;
+}
+.background .retangulo {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #FFFFFF;
+}
+
+.brand {
+  position: absolute;
+  width: 184px;
+  height: 86px;
+  left: 90px;
+  top: 30px;
+  background: transparent url(https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://www.driven.cx/wp-content/themes/driven/assets/css/../img/header-logo.png) no-repeat;
+  background-size: contain;
+}
+
+.navbar {
+  position: absolute;
+  left: 21.94%;
+  right: 7.43%;
+  bottom: 10.13%;
+  display: block;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+}
+.navbar ul li {
+  top: 81.01%;
+  bottom: 10.13%;
+  display: inline;
+  padding-left: 0px;
+  padding-right: 52px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #757575;
+}
+
+.search {
+  position: absolute;
+  left: 22.94%;
+  right: 30.17%;
+  top: 25.44%;
+  bottom: 39.11%;
+}
+.search .retangulo {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #F0F0F0;
+  border: 1px solid #DBDBDB;
+  box-sizing: border-box;
+}
+.search .text {
+  position: absolute;
+  height: 15px;
+  left: 16px;
+  right: 16px;
+  top: calc(50% - 15px/2 + 0.5px);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4C4C4C;
+}
+.search .icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 16px;
+  top: calc(60% - 24px/2);
+}
+.search .icondetail {
+  position: absolute;
+  left: 13.56%;
+  right: 13.56%;
+  top: 13.56%;
+  bottom: 13.56%;
+  background: #00BFA5;
+}
+
+.account {
+  position: absolute;
+  left: 71.5%;
+  right: 17.43%;
+  top: 33.04%;
+  bottom: 46.71%;
+}
+.account .icon {
+  position: absolute;
+  left: 0%;
+  right: 83.45%;
+  top: 15.62%;
+  bottom: 9.38%;
+}
+.account .text1 {
+  position: absolute;
+  left: 18%;
+  right: 0%;
+  top: 0%;
+  bottom: 56.25%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4C4C4C;
+}
+.account .text2 {
+  position: absolute;
+  left: 18%;
+  right: 20.69%;
+  top: 56.25%;
+  bottom: 0%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #9E9E9E;
+}
+
+.favorite {
+  position: absolute;
+  left: 84%;
+  right: 10.83%;
+  top: 35.57%;
+  bottom: 49.24%;
+}
+.favorite .quantity {
+  position: absolute;
+  background: #00BFA5;
+  border-radius: 0.8em;
+  color: #242424;
+  display: inline-block;
+  line-height: 1.2em;
+  text-align: center;
+  width: 1.2em;
+  left: 15%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.minicart {
+  position: absolute;
+  left: 87%;
+  right: 7.5%;
+  top: 35.57%;
+  bottom: 49.24%;
+}
+.minicart .quantity {
+  position: absolute;
+  background: #00BFA5;
+  border-radius: 0.8em;
+  color: #242424;
+  display: inline-block;
+  line-height: 1.2em;
+  text-align: center;
+  width: 1.2em;
+  left: 13%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
